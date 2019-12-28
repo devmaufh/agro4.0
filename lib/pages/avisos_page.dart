@@ -20,7 +20,7 @@ class _AvisosPageState extends State<AvisosPage> {
           SingleChildScrollView(
             child: Column(
               children: <Widget>[
-                HeadersText(h1: "Avisos",h2: "Mantente al margen con los avisos más recientes",),
+                HeadersText(h1: "Avisos",h2: "Mantente al margen con los avisos más recientes",textColor: Colors.black,),
                 ListView(
                   shrinkWrap: true,padding: EdgeInsets.all(20),
                   children: <Widget>[
@@ -38,8 +38,6 @@ class _AvisosPageState extends State<AvisosPage> {
                         Text("Amigo productor la SEDEA te informa que ya se aperturan las ventanillas para la solicitud de apoyos agropecuarios 2020. Para mayores informes consulta la sección dentro de la aplicación o comunicate al 123456789", style: TextStyle(color: Colors.white),),
                       ],
                     )
-                    
-                    
                   ],
                 )
               ],

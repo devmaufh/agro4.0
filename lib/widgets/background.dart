@@ -21,7 +21,10 @@ class BackgroundGradient extends StatelessWidget {
             gradient: LinearGradient(
                 begin: FractionalOffset(0.0, 0.6),
                 end: FractionalOffset(0.0, 1.0),
-                colors: [Consts.blue, Consts.darkBlue])));
+                colors: [
+                  Colors.white,
+                  Colors.white70
+                ])));
     final pinkBox = Transform.rotate(
       angle: -pi / 5.0,
       child: Container(
